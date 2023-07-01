@@ -37,7 +37,7 @@ if debugmode==True:
 print("[1;32mGathering code from " + colabpath + "...")
 print('[0m')
 
-camendururepo = 'camenduru/drive/MyDrive/stable-diffusion-webui'
+camendururepo = 'camenduru/stable-diffusion-webui'
 
 with open(colabpath, 'r', encoding='utf-8') as f:
     for line in f:
