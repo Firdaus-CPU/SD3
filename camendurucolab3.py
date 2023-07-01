@@ -42,7 +42,7 @@ camendururepo = 'camenduru/drive/MyDrive/stable-diffusion-webui'
 with open(colabpath, 'r', encoding='utf-8') as f:
     for line in f:
         stripped_line = line.strip()
-        if stripped_line.startswith(r'"%cd /content/drive/MyDrive/'):
+        if stripped_line.startswith(r'"%cd /content'):
             startcapture = True
         if startcapture:
             if stripped_line.startswith('"'):
